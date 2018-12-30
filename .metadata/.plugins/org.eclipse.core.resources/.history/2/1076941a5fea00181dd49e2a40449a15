@@ -1,0 +1,16 @@
+package org.test1;
+
+public class Testing extends Testing1 {
+	public void contract(String name1) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the last name" + name1);
+
+	}
+	public static void main(String[] args) {
+		Testing tes=new Testing();
+		tes.contract("ramya");
+		tes.info(1234);
+		
+	}
+
+}

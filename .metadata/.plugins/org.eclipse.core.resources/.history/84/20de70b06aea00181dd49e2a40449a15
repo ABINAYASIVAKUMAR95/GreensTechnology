@@ -1,0 +1,8 @@
+package org.text;
+
+public interface Kerala {
+	void saving();
+	void joinAcc();
+	void fixed();
+
+}

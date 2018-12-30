@@ -1,0 +1,8 @@
+package org.text;
+
+public interface Kerala extends Andhra {
+	void saving();
+	void joinAcc();
+	void fixed();
+
+}

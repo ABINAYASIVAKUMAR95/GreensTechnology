@@ -1,0 +1,12 @@
+package org.hospital;
+
+public abstract class Medicine {
+	public abstract void tablet(); 
+	public abstract void injection(); 
+	public abstract void liquid();
+	public void branch() {
+		System.out.println("Perungudi");
+
+	}
+
+}

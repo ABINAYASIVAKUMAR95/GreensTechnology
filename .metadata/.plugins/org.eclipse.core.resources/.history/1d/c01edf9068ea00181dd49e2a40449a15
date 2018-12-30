@@ -1,0 +1,32 @@
+package org.hospital;
+
+public class Pharmacy extends Medicine {
+
+	
+	public void tablet() {
+		System.out.println("10rs");
+		
+	}
+
+	
+	public void injection() {
+		System.out.println("20rs");
+		
+	}
+
+	
+	public void liquid() {
+		System.out.println("30rs");
+		
+	}
+	public static void main(String[] args) {
+		
+	
+	Pharmacy ph=new Pharmacy();
+	ph.injection();
+	ph.tablet();
+	ph.liquid();
+	ph.branch();
+	 
+	}
+}
